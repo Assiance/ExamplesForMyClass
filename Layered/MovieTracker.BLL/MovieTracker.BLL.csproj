@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MovieTracker.Services</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MovieTracker.Domain\MovieTracker.Domain.csproj" />
+      <ProjectReference Include="..\MovieTracker.DAL\MovieTracker.DAL.csproj" />
+    </ItemGroup>
+
+</Project>
